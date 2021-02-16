@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <style>
+        .cards-list-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .card-item-content {
+            width: 25%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: row;
+        }
+
+        .card-item-img img {
+            width: 140px;
+        }
+
+        .card-item-description {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        header .header-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            background-image: url('resources/bg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 455px;
+            margin-bottom: 20px;
+        }
+
+        .hidden {
+            /*visibility: hidden;*/
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin-left: 50px; margin-right: 50px;">
+        <header>
+            <!--Cabecera de la página web-->
+            <div style="display: flex; flex-direction: row;justify-content: flex-end;align-items: center;">
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Estudiantes</a>
+                    <a href="#">Ejercicios</a>
+                    <a href="#">Ayuda</a>
+                </nav>
+            </div>
+            <div class="header-content">
+                <div style="width: calc(100% - 150px);text-align: center;" class="header-title">
+                    <h1>Programación avanzada</h1>
+                    <h2>Aplicaciones Web - Grupo 1</h2>
+                </div>
+                <div class="hidden">
+                    <img src="resources/img-1.jpg" alt="Imagen del Header" style="width: 150px;">
+                </div>
+            </div>
+        </header>
+        <div>
+            <!--Contenido de la página-->
+            <div class="cards-list-content">
+                <div class="card-item-content">
+                    <div class="card-item-img">
+                        <img src="resources/html.png" alt="HTML">
+                    </div>
+                    <div class="card-item-description">
+                        <h3 class="card-item-title">HTML</h3>
+                        <p class="card-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card-item-content">
+                    <div class="card-item-img">
+                        <img src="resources/css.png" alt="CSS">
+                    </div>
+                    <div class="card-item-description">
+                        <h3 class="card-item-title">CSS</h3>
+                        <p class="card-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card-item-content">
+                    <div class="card-item-img">
+                        <img src="resources/js.png" alt="Javascript">
+                    </div>
+                    <div class="card-item-description">
+                        <h3 class="card-item-title">Javascript</h3>
+                        <p class="card-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card-item-content">
+                    <div class="card-item-img">
+                        <img src="resources/php.png" alt="PHP">
+                    </div>
+                    <div class="card-item-description">
+                        <h3 class="card-item-title">PHP</h3>
+                        <p class="card-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <!--Footer de la página-->
+        </footer>
+    </div>
+</body>
+
+</html>
